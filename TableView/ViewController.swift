@@ -12,9 +12,19 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     var hiddenSections = Set<Int>()
     let tableHeader = [NSLocalizedString("Batsmen", comment: "Batsmen"),NSLocalizedString("Bowler", comment: "Bowler"),NSLocalizedString("All Rounder", comment: "All Rounder")]
     let tableViewData = [
-        ["Rohit","Virat","Smith","Marnus","Buttler"],
-        ["Bumrah","Shami","Arshdeep","Anderson"],
-        ["Jadeja","Stokes","Green","Axar"],
+        [NSLocalizedString("Rohit", comment: "Rohit"),
+         NSLocalizedString("Virat", comment: "Virat"),
+         NSLocalizedString("Smith", comment: "Smith"),
+         NSLocalizedString("Marnus", comment: "Marnus"),
+         NSLocalizedString("Buttler", comment: "Buttler")],
+        [NSLocalizedString("Bumrah", comment: "Bumrah"),
+         NSLocalizedString("Shami", comment: "Shami"),
+         NSLocalizedString("Arshdeep", comment: "Arshdeep"),
+         NSLocalizedString("Anderson", comment: "Anderson")],
+        [NSLocalizedString("Jadeja", comment: "Jadeja"),
+         NSLocalizedString("Stokes", comment: "Stokes"),
+         NSLocalizedString("Green", comment: "Green"),
+         NSLocalizedString("Axar", comment: "Axar")]
     ]
     @IBOutlet weak var tableView: UITableView!
     
