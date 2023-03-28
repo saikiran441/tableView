@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  TableView
+
+  Created by Sai Kiran Reddy Pandilla on 07/03/23.
+  
+*/
+"Batsmen" = "Batsmen";
+"Rohit" = "Rohit";
+"Virat" = "Virat";
+"Smith" = "Smith";
+"Marnus" = "Marnus";
+"Buttler" = "Buttler";
+
+"Bowler" = "Bowler";
+"Bumrah" = "Bumrah";
+"Shami" = "Shami";
+"Arshdeep" = "Arshdeep";
+"Anderson" = "Anderson";
+
+"All Rounder" = "All Rounder";
+"Jadeja" = "Jadeja";
+"Stokes" = "Stokes";
+"Green" = "Green";
+"Axar" = "Axar";
+
